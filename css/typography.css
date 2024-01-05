@@ -1,0 +1,92 @@
+/* h1 */
+.h1-title {
+  color: #2d2b27;
+  font-family: Cormorant SC;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.h2-title {
+  color: #2d2b27;
+  font-family: Cormorant SC;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.brand-title {
+  color: #2d2b27;
+  font-family: Cormorant SC;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.card-item-title {
+  color: #2d2b27;
+  text-align: center;
+  font-family: Cormorant SC;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.card-item-descr {
+  color: #2d2b27;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.slider-title {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+}
+
+.card-title,
+.footer-number {
+  color: #2d2b27;
+  text-align: center;
+  font-family: Cormorant SC;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.header-nav {
+  color: #2d2b27;
+  text-align: center;
+  font-family: Cormorant SC;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.p-text {
+  color: #2d2b27;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Cormorant SC;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+}
