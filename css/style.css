@@ -1,56 +1,17 @@
-/* CORE STYLE */
-
-html {
-	box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-	box-sizing: inherit;
-}
-
-body {
-	padding: 0;
-	margin: 0;
-	font-family: "Cormorant Unicase", serif;
-}
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	margin: 0;
-}
-
-a {
-	display: inline-block;
-}
-
-.wrapper {
-	overflow: hidden;
-}
-
-.container {
-	max-width: 1200px;
-	margin: 0 auto;
-}
-
-
-.swipper-title{
+.swipper-title {
 	font-weight: 300;
 	margin: 24px 47px 7px 47px;
 }
-.swiper-title_p{
+
+.swiper-title_p {
 	font-weight: 300;
 	margin: 0 41px;
 }
+
 .swiper-button-prev::after {
 	display: none;
 }
-.swiper-button-next::after{
+
+.swiper-button-next::after {
 	display: none;
 }
