@@ -1,44 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Diamon done</title>
-	<!-- normalize css -->
-	<link rel="stylesheet" href="css/normalize.css">
-	<!-- cormorantcs font -->
-	<link rel="stylesheet" href="./fonts/CormorantSC/stylesheet.css">
-	<!-- typohraphy css -->
-	<link rel="stylesheet" href="./css/typography.css">
-	<!-- css link -->
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-	
-	<div class="wrapper">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diamon done</title>
+    <!-- normalize css -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- cormorantcs font -->
+    <link rel="stylesheet" href="./fonts/CormorantSC/stylesheet.css" />
+    <!-- manrope font -->
+    <link rel="stylesheet" href="./fonts/manrope/stylesheet.css">
+    <!-- swiper css -->
+    <link rel="stylesheet" href="./libs/swiper/swiper.css" />
+    <!-- typohraphy css -->
+    <link rel="stylesheet" href="./css/typography.css" />
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- header start -->
+      <header class="header">
+        <div class="container">
+          <h1 class="brand-title">Diamond Rivera Atelier</h1>
+          <nav class="header-nav">
+            <ul class="nav-menu">
+              <li class="nav-item">
+                <a href="#!" class="nav-link header-nav">Женское</a
+                ><img
+                  class="arrow-icon"
+                  src="./images/icons/arrow-icon.svg"
+                  alt="arrow-icon"
+                />
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link header-nav">Мужское</a
+                ><img
+                  class="arrow-icon"
+                  src="./images/icons/arrow-icon.svg"
+                  alt="arrow-icon"
+                />
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link header-nav">контакты</a
+                ><img
+                  class="arrow-icon"
+                  src="./images/icons/arrow-icon.svg"
+                  alt="arrow-icon"
+                />
+              </li>
+              <li class="nav-item">
+                <img
+                  class="bars-icon"
+                  src="./images/icons/bars-icon.svg"
+                  alt="bars-icon"
+                />
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- header end -->
 
-		<!-- header start -->
-		<header class="header">
+      <!-- main start -->
+      <main class="main">
+        <!-- intro section start -->
+        <section class="intro">
+          <div class="container d-flex">
+            <div class="intro-content">
+              <p class="intro-content-text card-item-title">
+                Премиальный ювелирный бренд
+              </p>
+              <h1 class="h1-title intro-title">Diamond Rivera Atelier</h1>
+            </div>
+            <div class="intro-imgs">
+              <img
+                class="intro-img"
+                src="./images/intro-img.png"
+                alt="intro-img"
+              />
+            </div>
+          </div>
+        </section>
 
-		</header>
-		<!-- header end -->
+        <!-- slider section -->
+        <section class="img-slider">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/slider-img.png" />
+                <div class="captions">
+                  <h1 class="caption-title h2-title">Исполняем  <br> ювелирные мечты</h1>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/images.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80"
+                  alt="images"
+                />
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+      </main>
+      <!-- main end -->
 
-		<!-- main start -->
-		<main class="main">
-
-
-
-		</main>
-		<!-- main end -->
-
-		<!-- footer start -->
-		<footer class="footer">
-			
-		</footer>
-		<!-- footer end -->
-
-
-	</div>
-
-</body>
+      <!-- footer start -->
+      <footer class="footer">
+        <div class="footer-box">
+          <h1 class="footer-number">8 928 105 53 38</h1>
+          <ul class="footer-menu d-flex">
+            <li class="footer-item">
+              <a href="#!" class="footer-link card-item-title">Кольца</a>
+            </li>
+            <li class="footer-item">
+              <a href="#!" class="footer-link card-item-title">Серьги</a>
+            </li>
+            <li class="footer-item">
+              <a href="#!" class="footer-link card-item-title">Ожерелья</a>
+            </li>
+            <li class="footer-item">
+              <a href="#!" class="footer-link card-item-title">Браслеты</a>
+            </li>
+            <li class="footer-item">
+              <a href="#!" class="footer-link card-item-title">Подвески</a>
+            </li>
+            <li class="footer-item">
+              <a href="#!" class="footer-link card-item-title">Контакты</a>
+            </li>
+          </ul>
+          <div class="footer-descr card-item-descr">
+            Настоящим в соответствии с Федеральным законом № 152-ФЗ «О
+            персональных данных» от 27.07.2006, отправляя данную форму, вы
+            подтверждаете свое согласие на обработку персональных данных.
+          </div>
+        </div>
+        <div class="container">
+          <div class="footer-bottom">
+            <p class="card-item-descr">©  Diamond Rivera Atelier 2023</p>
+            <div class="abstract-box d-flex">
+              <p class="abstracts-text card-item-descr">ИНН: 615403468530</p>
+              <p class="abstracts-text card-item-descr">ОГРН: 309617124300034</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer end -->
+    </div>
+    <!-- swiper js -->
+    <script src="./libs/swiper/swiper.js"></script>
+    <!-- custom js -->
+    <script src="./js/script.js"></script>
+  </body>
 </html>
