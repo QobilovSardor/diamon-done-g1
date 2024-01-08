@@ -31,7 +31,6 @@
 
 .card-item-title {
   color: #2d2b27;
-  text-align: center;
   font-family: Cormorant SC;
   font-size: 19px;
   font-style: normal;
@@ -42,7 +41,6 @@
 
 .card-item-descr {
   color: #2d2b27;
-  text-align: center;
   font-family: Manrope;
   font-size: 14px;
   font-style: normal;
@@ -62,7 +60,6 @@
 .card-title,
 .footer-number {
   color: #2d2b27;
-  text-align: center;
   font-family: Cormorant SC;
   font-size: 41px;
   font-style: normal;
@@ -72,13 +69,13 @@
 
 .header-nav {
   color: #2d2b27;
-  text-align: center;
   font-family: Cormorant SC;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .p-text {
@@ -89,4 +86,17 @@
   font-style: normal;
   font-weight: 300;
   line-height: 160%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.wrapper {
+  overflow: hidden;
 }
