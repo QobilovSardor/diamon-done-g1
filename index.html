@@ -9,7 +9,7 @@
     <!-- cormorantcs font -->
     <link rel="stylesheet" href="./fonts/CormorantSC/stylesheet.css" />
     <!-- manrope font -->
-    <link rel="stylesheet" href="./fonts/manrope/stylesheet.css">
+    <link rel="stylesheet" href="./fonts/manrope/stylesheet.css" />
     <!-- swiper css -->
     <link rel="stylesheet" href="./libs/swiper/swiper.css" />
     <!-- typohraphy css -->
@@ -85,27 +85,46 @@
 
         <!-- slider section -->
         <section class="img-slider">
-          <div class="swiper mySwiper">
+          <div class="swiper imgSlider">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <img src="./images/slider-img.png" />
-                <div class="captions">
-                  <h1 class="caption-title h2-title">Исполняем  <br> ювелирные мечты</h1>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <img src="./images/images.jpg" />
+                <img
+                  class="swiper-img"
+                  src="./images/slider-img.png"
+                  alt="slider img"
+                />
+                <h1 class="swiper-caption h2-title">Исполняем <br> ювелирные мечты</h1>
               </div>
               <div class="swiper-slide">
                 <img
-                  src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80"
-                  alt="images"
+                  class="swiper-img"
+                  src="./images/anime.jpg"
+                  alt="slider img"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="swiper-img"
+                  src="./images/images.jpg"
+                  alt="slider img"
                 />
               </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
+            <div class="swiper-btns">
+              <div class="swiper-btn">
+                <img
+                  class="swiper-button-next rotate-btn"
+                  src="./images/icons/arrow-slider.svg"
+                  alt="arrow-icon"
+                />
+                <div class="swiper-pagination"></div>
+                <img
+                  class="swiper-button-prev"
+                  src="./images/icons/arrow-slider.svg"
+                  alt="arrow-icon"
+                />
+              </div>
+            </div>
           </div>
         </section>
       </main>
@@ -143,10 +162,12 @@
         </div>
         <div class="container">
           <div class="footer-bottom">
-            <p class="card-item-descr">©  Diamond Rivera Atelier 2023</p>
+            <p class="card-item-descr">© Diamond Rivera Atelier 2023</p>
             <div class="abstract-box d-flex">
               <p class="abstracts-text card-item-descr">ИНН: 615403468530</p>
-              <p class="abstracts-text card-item-descr">ОГРН: 309617124300034</p>
+              <p class="abstracts-text card-item-descr">
+                ОГРН: 309617124300034
+              </p>
             </div>
           </div>
         </div>
