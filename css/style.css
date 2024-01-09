@@ -26,6 +26,159 @@ header .arrow-icon,
 
 nav .nav-item {
   list-style: none;
+  position: relative;
+}
+
+.hideIcon {
+  opacity: 0;
+}
+
+/* down */
+
+.downBox {
+  height: 200px;
+  width: 200px;
+  background-color: #d9d9d96b;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 10;
+  display: none;
+  transition: all 0.5s ease-in;
+  backdrop-filter: blur(5px);
+}
+
+.downBox.frist,
+.two,
+.there {
+  left: -96px;
+  top: 36px;
+}
+
+.downMenu {
+  padding-left: 0;
+  padding: 10px;
+  position: relative;
+  z-index: 12;
+}
+
+.downItem {
+  list-style: none;
+  transition: all 0.5s linear;
+  border-radius: 5px;
+}
+
+.downItem:hover {
+  padding-left: 12px;
+  background-color: #5aee2584;
+  backdrop-filter: blur(5px);
+}
+
+.downLink {
+  text-decoration: none;
+  color: #000;
+  text-transform: capitalize;
+}
+
+/* down */
+
+/* Open & Close */
+#check {
+  display: none;
+}
+
+label #cancel,
+label #menu {
+  cursor: pointer;
+  position: relative;
+  z-index: 111;
+}
+
+label #menu {
+  transition: all 0.5s ease;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+label #menu:hover {
+  background-color: #92918f;
+}
+
+label #cancel {
+  width: 32px;
+  position: fixed;
+  top: 25px;
+  right: 25px;
+  z-index: 1111;
+  opacity: 0;
+  transition: all 0.5s ease;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+label #cancel:hover {
+  background-color: #e08a08b0;
+}
+
+#check:checked ~ label #cancel {
+  opacity: 1;
+}
+
+#check:checked ~ .menuBody {
+  right: 0;
+}
+
+#check:checked ~ label #menu {
+  opacity: 0;
+}
+
+#check:checked ~ .header {
+  left: 400px;
+}
+
+.menuBody {
+  position: fixed;
+  width: 400px;
+  height: 100vh;
+  background-color: #d9d9d9c6;
+  right: -410px;
+  top: -1px;
+  transition: all 0.5s ease;
+  z-index: 11;
+  padding-top: 50px;
+  backdrop-filter: blur(5px);
+}
+
+.menuBody .bodyItem {
+  list-style: none;
+  padding: 10px 20px;
+  position: relative;
+  transition: all 0.5s ease;
+}
+
+.menuBody .bodyItem::after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: #000;
+  left: 0;
+  bottom: 0;
+  border-top-right-radius: 10px;
+  transition: all 0.5s linear;
+}
+
+.menuBody .bodyItem:hover {
+  background-color: #ffffff52;
+}
+
+.menuBody .bodyItem:hover::after {
+  width: 100%;
+  background-color: #fff;
+}
+
+.menuBody .bodyLink {
+  text-decoration: none;
+  font-size: 32px;
 }
 
 /* Intro stayle */
@@ -260,5 +413,12 @@ nav .nav-item {
   .swiper-caption {
     font-size: 50px;
     left: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .menuBody 
+  {
+    width: 100%;
   }
 }
