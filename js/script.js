@@ -32,25 +32,13 @@ const backColor = document.querySelector(".back");
 
 items.forEach((item) => {
   item.addEventListener("click", () => {
-    var icon = item.querySelector(".arrow-icon");
-    var downBox = item.querySelector(".down");
+    let icon = item.querySelector(".arrow-icon");
+    let downBox = item.querySelector(".down");
     if (icon) {
-      icon.classList.toggle('rotate');
+      icon.classList.toggle("rotate");
     }
-    downBox.classList.toggle("hideWindow")
+    downBox.classList.toggle("hideWindow");
     downBox.style.transition = "all 0.3s ease-in-out";
-    
-  });
-
-  item.addEventListener("click", () => {
-    var icon = item.querySelector(".arrow-icon");
-    var downBox = item.querySelector(".downBox");
-    // if (icon) {
-    //   icon.style.transform = "rotate(0deg)";
-    // }
-
-    downBox.style.display = "none";
-    downBox.style.transition = "all .5s linear";
   });
 });
 
