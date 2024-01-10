@@ -3,26 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background: #F7F7F7;
+}
 .container {
 
-max-width: 1400px;
+max-width: 1200px;
 margin: 0 auto;
 
 }
+
+.info-sction__header-title h3 {
+    color: #2D2B27;
+    text-align: center;
+    font-family: 'Cormorant SC';
+    font-size: 41px;
+    font-weight: 300;
+}
+
 .info-section__middle-box {
     width: 270px;
     border: 1px solid #D9D9D9;
     border-radius: 10px;
     background:#fff;
+    overflow: hidden;
+    position: relative;
 }
-/* .info-section__middle-box:hover {
-    height: 400px;
 
-} */
 
-body {
-    background: #F7F7F7;
-}
 .info-section__icon {
     position: relative;
 }
@@ -39,6 +48,7 @@ body {
     text-align: center;
     margin-bottom: 7px;
     color: #2D2B27;
+    font-family: 'Cormorant SC';
     font-size: 19px;
     font-weight: 300;
     text-transform: uppercase;
@@ -47,8 +57,9 @@ body {
 
 .title {
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 62px;
     color: #2D2B27;
+    font-family: 'Manrope';
     font-size: 14px;
     font-weight: 300;
     opacity: 0.5;
@@ -56,7 +67,7 @@ body {
 }
 
 .info-section__line {
-    width: 1200px;
+    width: 100%;
     height: 1px;
     flex-shrink: 0;
     background: #D9D9D9;
@@ -75,11 +86,13 @@ body {
 
 .info-section__footer-btn {
      color: #2D2B27;
+     font-family: 'Cormorant SC';
     font-size: 19px;
     font-weight: 300;
     padding: 17px 75px;
     border-radius: 30px;
     margin-top: 110px;
+    border: 1px solid #2D2B27;
 
 }
 
@@ -87,3 +100,178 @@ body {
     text-align: center;
     margin: 0 auto;
 }
+
+.price-box {
+    text-align: center;
+}
+.price {
+ position: absolute;
+ bottom: -25px;
+ transform: translateX(-50%);
+ transition: all 0.2s linear;
+}
+
+.info-section__middle-box:hover .price {
+    bottom: 27px;
+}
+
+/* ring section star */
+/* header start*/
+
+header .container {
+    max-width: 1200px;
+    margin: 27px auto 34px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header .nav-menu,
+  .nav-item {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  header .nav-item {
+    gap: 0;
+  }
+  
+  header .arrow-icon,
+  .bars-icon {
+    cursor: pointer;
+  }
+  
+  nav .nav-item {
+    list-style: none;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #2D2B27;
+    text-align: center;
+    font-family: Cormorant SC;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  
+  /* header end */
+  
+  /* main start */
+  
+  .ring-section {
+    border-radius: 50px;
+    background: #fff;
+  }
+  
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .ring-section__header-content {
+    display: inline-block;
+    margin-left: 30%;
+  
+  }
+  
+  .ring-section__header-tittle {
+    text-align: left;
+  }
+  
+  .titttle {
+    text-align: center;
+    margin-bottom: 7px;
+    color: #2D2B27;
+    font-family: 'Cormorant SC';
+    font-size: 19px;
+    font-weight: 300;
+    text-transform: uppercase;
+  
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 62px;
+    color: #2D2B27;
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 300;
+    opacity: 0.5;
+  
+  }
+  
+  .ring-section__middle-cart {
+    width: 580px;
+  }
+  
+  .ring-section__middle-box {
+    width: 270px;
+    position: relative;
+    bottom: 90px;
+  }
+  
+  .ring-section__middle-cart-img {
+    width: 100%;
+  
+  }
+  
+  .ring-section__boxes {
+    display: flex;
+  }
+  
+  .ring-section__middle-boxes {
+    display: grid;
+    grid-template-columns: 270px 270px;
+    column-gap: 40px;
+  }
+  
+  .ring-section__middle-first {
+    margin-top: 100px;
+  }
+  
+  
+  .ring-section__middle-cart__boxes {
+    display: grid;
+    grid-template-columns: 270px 270px 270px 270px;
+    gap: 40px;
+  }
+  
+  .ring-section__middle {
+    position: relative;
+    right: 30px;
+  }
+  
+  .ring-section__middle-list {
+    position: relative;
+    right: 30px;
+  }
+  
+  .info-section__footer-btn {
+    color: #2D2B27;
+    font-family: 'Cormorant SC';
+    font-size: 19px;
+    font-weight: 300;
+    padding: 17px 75px;
+    border-radius: 30px;
+    margin: 110px 0 80px 0;
+    border: 1px solid #2D2B27;
+  
+  }
+  
+  .info-section__foter-btn {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .ring-section__header-tittle {
+    color: #969593;
+    text-align: center;
+    font-family:' Manrope';
+    font-size: 14px;
+    font-weight: 300;
+  }
+
