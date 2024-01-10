@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,10 +7,11 @@
 body {
     background: #F7F7F7;
 }
+
 .container {
 
-max-width: 1200px;
-margin: 0 auto;
+    max-width: 1200px;
+    margin: 0 auto;
 
 }
 
@@ -26,7 +27,7 @@ margin: 0 auto;
     width: 270px;
     border: 1px solid #D9D9D9;
     border-radius: 10px;
-    background:#fff;
+    background: #fff;
     overflow: hidden;
     position: relative;
 }
@@ -35,11 +36,13 @@ margin: 0 auto;
 .info-section__icon {
     position: relative;
 }
+
 .yurak-icon {
     position: absolute;
     left: 230px;
     bottom: 240px;
 }
+
 .yurak-icon:hover {
     fill: red;
 }
@@ -73,6 +76,7 @@ margin: 0 auto;
     background: #D9D9D9;
     margin: 30px 0 30px 0;
 }
+
 .info-section__middle-box__img {
     width: 100%;
 }
@@ -80,13 +84,13 @@ margin: 0 auto;
 
 .info-section__middle-boxes {
     display: grid;
-    grid-template-columns:270px 270px 270px 270px;
+    grid-template-columns: 270px 270px 270px 270px;
     gap: 40px;
 }
 
 .info-section__footer-btn {
-     color: #2D2B27;
-     font-family: 'Cormorant SC';
+    color: #2D2B27;
+    font-family: 'Cormorant SC';
     font-size: 19px;
     font-weight: 300;
     padding: 17px 75px;
@@ -104,11 +108,12 @@ margin: 0 auto;
 .price-box {
     text-align: center;
 }
+
 .price {
- position: absolute;
- bottom: -25px;
- transform: translateX(-50%);
- transition: all 0.2s linear;
+    position: absolute;
+    bottom: -25px;
+    transform: translateX(-50%);
+    transition: all 0.2s linear;
 }
 
 .info-section__middle-box:hover .price {
@@ -124,29 +129,29 @@ header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-  
-  header .nav-menu,
-  .nav-item {
+}
+
+header .nav-menu,
+.nav-item {
     display: flex;
     align-items: center;
     gap: 24px;
-  }
-  
-  header .nav-item {
+}
+
+header .nav-item {
     gap: 0;
-  }
-  
-  header .arrow-icon,
-  .bars-icon {
+}
+
+header .arrow-icon,
+.bars-icon {
     cursor: pointer;
-  }
-  
-  nav .nav-item {
+}
+
+nav .nav-item {
     list-style: none;
-  }
-  
-  .nav-link {
+}
+
+.nav-link {
     text-decoration: none;
     color: #2D2B27;
     text-align: center;
@@ -156,33 +161,56 @@ header .container {
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
-  }
-  
-  /* header end */
-  
-  /* main start */
-  
-  .ring-section {
-    border-radius: 50px;
-    background: #fff;
-  }
-  
-  .container {
+}
+
+/* header end */
+
+/* main start */
+.ring-section .container {
+    padding: 33px 30px 0 30px;
+}
+
+.container {
     width: 1200px;
     margin: 0 auto;
-  }
-  
-  .ring-section__header-content {
+    overflow: hidden;
+}
+
+.ring-section__header-line {
+    width: 51px;
+    height: 1px;
+    flex-shrink: 0;
+    opacity: 0.3;
+    background: #969593;
+    position: relative;
+    left: 60px;
+}
+
+.ring-section__header-linee {
+    width: 100px;
+    height: 1px;
+    flex-shrink: 0;
+    opacity: 0.3;
+    background: #969593;
+    position: relative;
+    left: 115px;
+    bottom: 1px;
+}
+
+
+.ring-section__header-content {
     display: inline-block;
-    margin-left: 30%;
-  
-  }
-  
-  .ring-section__header-tittle {
+    margin-left: 50%;
+    transform: rotateX('-50%');
+    
+
+}
+
+.ring-section__header-tittle {
     text-align: left;
-  }
-  
-  .titttle {
+}
+
+.titttle {
     text-align: center;
     margin-bottom: 7px;
     color: #2D2B27;
@@ -190,10 +218,10 @@ header .container {
     font-size: 19px;
     font-weight: 300;
     text-transform: uppercase;
-  
-  }
-  
-  .title {
+
+}
+
+.title {
     text-align: center;
     margin-bottom: 62px;
     color: #2D2B27;
@@ -201,56 +229,56 @@ header .container {
     font-size: 14px;
     font-weight: 300;
     opacity: 0.5;
-  
-  }
-  
-  .ring-section__middle-cart {
+
+}
+
+.ring-section__middle-cart {
     width: 580px;
-  }
-  
-  .ring-section__middle-box {
+}
+
+.ring-section__middle-box {
     width: 270px;
     position: relative;
     bottom: 90px;
-  }
-  
-  .ring-section__middle-cart-img {
+}
+
+.ring-section__middle-cart-img {
     width: 100%;
-  
-  }
-  
-  .ring-section__boxes {
+
+}
+
+.ring-section__boxes {
     display: flex;
-  }
-  
-  .ring-section__middle-boxes {
+}
+
+.ring-section__middle-boxes {
     display: grid;
     grid-template-columns: 270px 270px;
     column-gap: 40px;
-  }
-  
-  .ring-section__middle-first {
+}
+
+.ring-section__middle-first {
     margin-top: 100px;
-  }
-  
-  
-  .ring-section__middle-cart__boxes {
+}
+
+
+.ring-section__middle-cart__boxes {
     display: grid;
     grid-template-columns: 270px 270px 270px 270px;
     gap: 40px;
-  }
-  
-  .ring-section__middle {
+}
+
+.ring-section__middle {
     position: relative;
     right: 30px;
-  }
-  
-  .ring-section__middle-list {
+}
+
+.ring-section__middle-list {
     position: relative;
     right: 30px;
-  }
-  
-  .info-section__footer-btn {
+}
+
+.info-section__footer-btn {
     color: #2D2B27;
     font-family: 'Cormorant SC';
     font-size: 19px;
@@ -259,19 +287,116 @@ header .container {
     border-radius: 30px;
     margin: 110px 0 80px 0;
     border: 1px solid #2D2B27;
-  
-  }
-  
-  .info-section__foter-btn {
+
+}
+
+.info-section__foter-btn {
     text-align: center;
     margin: 0 auto;
-  }
-  
-  .ring-section__header-tittle {
+}
+
+
+
+.ring-section__header-tittle {
     color: #969593;
     text-align: center;
-    font-family:' Manrope';
+    font-family: ' Manrope';
     font-size: 14px;
     font-weight: 300;
-  }
+    padding-left: 60px;
+    margin-top: 33px;
+}
 
+.ring-section__middle-list .container {
+    display: flex;
+}
+
+.ring-section__middle-list .ring-section__middle-cart {
+    position: relative;
+    bottom: 25px;
+}
+
+/* footer */
+
+.footer-titttle {
+    color: #2D2B27;
+    text-align: center;
+    font-family: " Cormorant SC";
+    font-size: 41px;
+    font-weight: 300;
+    margin: 24px 0 22px 0;
+}
+
+.foter-content {
+    color: #2D2B27;
+    text-align: center;
+    font-family: "Cormorant SC";
+    font-size: 19px;
+    font-weight: 300;
+    margin-right: 24px;
+}
+
+.ring-content__box {
+    text-align: center;
+}
+
+.footer-paragraph {
+    color: #2D2B27;
+    text-align: center;
+    margin: 43px auto 24px auto;
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 300;
+    width: 720px;
+    opacity: 0.5;
+}
+
+.footer-title {
+    color: #2D2B27;
+    text-align: right;
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 300;
+    opacity: 0.5;
+    margin-right: 16px;
+}
+
+.footer-tittle {
+    color: #2D2B27;
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 300;
+    opacity: 0.5;
+    margin-right: 645px;
+}
+
+.foter-line {
+    height: 1px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    position: relative;
+    bottom: 55px;
+}
+
+.footer-line {
+    height: 1px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    margin-top: 100px;
+    position: relative;
+    bottom: 365px;
+
+}
+
+.footer-tittle__box {
+    margin: 24px 0;
+}
+
+.ring-section .container {
+    background: #fff;
+    border-radius: 50px;
+}
+
+.footer .container {
+    margin-top: 80px;
+}
